@@ -1,4 +1,4 @@
-var quoteList = [ 
+var quoteList = [
 	{
 		quote: "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.",
 		source: "Lao Tzu"
@@ -201,6 +201,16 @@ setInterval(function(){
 
     // Delete the trending box
     $("div#pagelet_trending_tags_and_topics").remove();
+
+	// Delete Pages side-bar element.
+	$("div#pagesNav").remove();
+
+	// Delete Apps side-bar element.
+	$("div#appsNav").remove();
+
+	// Delete Friends side-bar element.
+	$("div#listsNav").remove();
+
+	// Delete Interest side-bar element.
+	$("div#interestsNav").remove();
 }, 1000);
-
-
